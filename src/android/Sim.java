@@ -25,7 +25,7 @@
 // Cordova Permissions API
 // https://cordova.apache.org/docs/en/latest/guide/platforms/android/plugin.html#android-permissions
 
-package com.pbakondy;
+package com.gotojmp.cordova.sim;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;

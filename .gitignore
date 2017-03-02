@@ -1,4 +1,12 @@
-node_modules/
 .DS_Store
 npm-debug.log
-notes
+*.cache
+Thumbs.db
+.idea/
+
+*.bak
+*.log
+*.swp
+*.user
+
+node_modules/

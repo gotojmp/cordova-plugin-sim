@@ -6,15 +6,12 @@
     "id": "cordova-plugin-sim",
     "platforms": [
       "android",
-      "ios",
-      "wp7",
-      "wp8",
-      "windows"
+      "ios"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pbakondy/cordova-plugin-sim.git"
+    "url": "https://github.com/gotojmp/cordova-plugin-sim.git"
   },
   "keywords": [
     "cordova",
@@ -39,7 +36,7 @@
   "author": "Peter Bakondy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pbakondy/cordova-plugin-sim/issues"
+    "url": "https://github.com/gotojmp/cordova-plugin-sim/issues"
   },
-  "homepage": "https://github.com/pbakondy/cordova-plugin-sim#readme"
+  "homepage": "https://github.com/gotojmp/cordova-plugin-sim#readme"
 }
