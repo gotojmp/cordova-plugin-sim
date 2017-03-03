@@ -240,19 +240,18 @@ public class Sim extends CordovaPlugin {
     if (Build.VERSION.SDK_INT < 23) {
       return true;
     }
-    return cordova.hasPermission(type);
+    return PermissionHelper.hasPermission(this, type);
   }
 
   private void requestPermission(String type) {
     LOG.i(LOG_TAG, "requestPermission");
     if (!simPermissionGranted(type)) {
-      cordova.requestPermission(this, 12345, type);
+      PermissionHelper.requestPermission(this, 12345, type);
     } else {
       this.callback.success();
     }
   }
 
-  @Override
   public void onRequestPermissionResult(int requestCode, String[] permissions, int[] grantResults) throws JSONException
   {
     if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
