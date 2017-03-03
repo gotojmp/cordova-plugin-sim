@@ -31,6 +31,7 @@
       <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     </config-file>
 
+    <source-file src="src/android/PermissionHelper.java" target-dir="src/com/gotojmp/cordova/sim" />
     <source-file src="src/android/Sim.java" target-dir="src/com/gotojmp/cordova/sim" />
 
     <js-module src="www/android/sim.js" name="SimAndroid">
